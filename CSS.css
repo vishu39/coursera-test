@@ -1,0 +1,124 @@
+body {
+margin-left: 0px;
+margin-right: 0px;
+}
+h1 {
+text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.sec1 {
+position: relative;
+border: 1px solid #000000; 
+background-color:#808080;
+width: auto;
+height: auto;
+margin-bottom: 10px;
+}
+.sec1 h2 {
+position: absolute;
+border: 1px solid #000000;
+background-color:#CD5C5C;
+width: 90px;
+height: 30px;
+right: 0px;
+margin-top: 0px;
+text-align: center;
+}
+.sec1 p {
+padding-left: 5px;
+padding-top: 20px;
+}
+.sec2 {
+position: relative;
+border: 1px solid #000000; 
+background-color:#808080;
+width: auto;
+height: auto;
+margin-bottom: 10px;
+}
+.sec2 h2 {
+position: absolute;
+border: 1px solid #000000;
+background-color:#B22222;
+width: 90px;
+height: 30px;
+right: 0px;
+margin-top: 0px;
+text-align: center;
+}
+.sec2 p {
+padding-left: 5px;
+padding-top: 20px;
+}
+.sec3 {
+position: relative;
+border: 1px solid #000000; 
+background-color:#808080;
+width: auto;
+height: auto;
+}
+.sec3 h2 {
+position: absolute;
+border: 1px solid #000000;
+background-color:#F0E68C;
+width: 90px;
+height: 30px;
+right: 0px;
+margin-top: 0px;
+text-align: center;
+}
+.sec3 p {
+padding-left: 5px;
+padding-top: 20px;
+}
+/*Large devises*/
+@media (min-width: 992px){
+section {float: left;}
+.sec1 {
+width: 32%;
+margin-left: 1%;}
+.sec2 {
+width: 32%;
+margin-left: 1%
+}
+.sec3 {
+width: 32%;
+margin-left: 1%;
+margin-right: 1%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+section {float: left;}
+.sec1 {
+width: 48.5%;
+margin-left: 1%;}
+.sec2 {
+width: 48.5%;
+margin-left: 1%;
+margin-right: 1%;
+}
+.sec3 {
+width: 98%;
+margin-left: 1%;
+margin-right: 1%;
+}
+}
+@media (max-width: 767px) {
+.sec1 {
+width: 98%;
+margin-left: 1%;
+margin-right: 1%;
+}
+.sec2 {
+width: 98%;
+margin-left: 1%;
+margin-right: 1%;
+}
+.sec3 {
+width: 98%;
+margin-left: 1%;
+margin-right: 1%;
+}
+}
